@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Paytm wallet</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Paytm-wallet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Paytm-wallet_1" transform="translate(1.000000, 3.000000)" fill-rule="nonzero">
+            <g id="_Group_" fill="#00B9F0">
+                <path d="M21.41,4 L21.41,14.46 C21.41,16.669139 19.619139,18.46 17.41,18.46 L1.65,18.46 C0.738730163,18.46 1.11598369e-16,17.7212698 0,16.81 L0,1.65 C-1.11598369e-16,0.738730163 0.738730163,1.67397553e-16 1.65,0 L17.41,0 C19.619139,1.3527075e-16 21.41,1.790861 21.41,4 Z" id="Shape"></path>
+            </g>
+            <path d="M22,4 L22,14.46 C22,16.669139 20.209139,18.46 18,18.46 L17.41,18.46 C19.619139,18.46 21.41,16.669139 21.41,14.46 L21.41,4 C21.41,1.790861 19.619139,1.3527075e-16 17.41,0 L18,0 C20.209139,1.3527075e-16 22,1.790861 22,4 Z" id="Shape" fill="#505352"></path>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="20.48" y="4.76" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="20.48" y="5.6" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="20.48" y="6.44" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="20.48" y="7.28" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="20.48" y="8.12" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="20.48" y="8.97" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="20.48" y="9.81" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="20.48" y="10.65" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="20.48" y="11.49" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="20.48" y="12.33" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="20.48" y="13.17" width="1" height="1"></rect>
+            <path d="M20.46,14.41 C20.46,14.28 20.46,14.15 20.46,14.01 L20.88,14.01 C20.88,14.16 20.88,14.31 20.88,14.46 L20.46,14.41 Z" id="Shape" fill="#FDFDFF"></path>
+            <path d="M20.28,15.18 C20.3271486,15.0566054 20.3639423,14.9294998 20.39,14.8 L20.8,14.9 C20.8,15.04 20.73,15.18 20.68,15.32 L20.28,15.18 Z" id="Shape" fill="#FDFDFF"></path>
+            <path d="M19.93,15.89 L20.04,15.72 L20.13,15.55 L20.5,15.73 C20.4727579,15.7995422 20.4392885,15.866481 20.4,15.93 L20.29,16.12 L19.93,15.89 Z" id="Shape" fill="#FDFDFF"></path>
+            <path d="M19.44,16.51 L19.57,16.36 L19.7,16.22 L20.03,16.48 C20.03,16.54 19.93,16.59 19.88,16.65 C19.83,16.71 19.79,16.76 19.73,16.81 L19.44,16.51 Z" id="Shape" fill="#FDFDFF"></path>
+            <path d="M18.81,17 C18.9239027,16.9290906 19.0340507,16.8523208 19.14,16.77 L19.4,17.1 C19.2830485,17.1924093 19.1593727,17.2759741 19.03,17.35 L18.81,17 Z" id="Shape" fill="#FDFDFF"></path>
+            <path d="M18.1,17.33 C18.2256349,17.2947726 18.3465216,17.2444031 18.46,17.18 L18.64,17.57 C18.5075835,17.6336418 18.3705222,17.6871291 18.23,17.73 L18.1,17.33 Z" id="Shape" fill="#FDFDFF"></path>
+            <polygon id="Shape" fill="#FDFDFF" points="17.32 17.5 17.71 17.44 17.8 17.85 17.36 17.92"></polygon>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="16.5" y="17.52" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="15.66" y="17.52" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="14.82" y="17.52" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="13.98" y="17.52" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="13.14" y="17.52" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="12.29" y="17.52" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="11.45" y="17.52" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="10.61" y="17.52" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="9.77" y="17.52" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="8.93" y="17.52" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="8.09" y="17.52" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="7.25" y="17.52" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="6.4" y="17.52" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="5.56" y="17.52" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="4.72" y="17.52" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="3.88" y="17.52" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="3.04" y="17.52" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="2.2" y="17.52" width="1" height="1"></rect>
+            <path d="M1.5,17.33 L1.58,17.33 L1.66,17.33 C1.71841999,17.3544603 1.77858786,17.3745162 1.84,17.39 L1.73,17.8 L1.5,17.8 L1.39,17.75 C1.35456109,17.7337393 1.32102479,17.7136175 1.29,17.69 L1.5,17.33 Z" id="Shape" fill="#FDFDFF"></path>
+            <path d="M1,16.82 C1.06436579,16.923153 1.13800403,17.0202216 1.22,17.11 L0.92,17.4 C0.8036888,17.2820761 0.705912866,17.1472127 0.63,17 L1,16.82 Z" id="Shape" fill="#FDFDFF"></path>
+            <path d="M0.81,16.12 C0.790588118,16.239215 0.790588118,16.360785 0.81,16.48 L0.4,16.59 C0.356185923,16.4373022 0.3359526,16.2788078 0.34,16.12 L0.81,16.12 Z" id="Shape" fill="#FDFDFF"></path>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="0.39" y="15.28" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="0.39" y="14.43" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="0.39" y="13.59" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="0.39" y="12.75" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="0.39" y="11.91" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="0.39" y="11.07" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="0.39" y="10.23" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="0.39" y="9.39" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="0.39" y="8.54" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="0.39" y="7.7" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="0.39" y="6.86" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="0.39" y="6.02" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="0.39" y="5.18" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="0.39" y="4.34" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="0.39" y="3.49" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="0.39" y="2.65" width="1" height="1"></rect>
+            <path d="M0.86,1.87 C0.840588118,1.98921496 0.840588118,2.11078504 0.86,2.23 L0.39,2.23 C0.3859526,2.0711922 0.406185923,1.91269783 0.45,1.76 L0.86,1.87 Z" id="Shape" fill="#FDFDFF"></path>
+            <path d="M1.21,1.24 C1.1314705,1.33019377 1.06118893,1.42724927 1,1.53 L0.63,1.32 C0.706983964,1.20006529 0.80134577,1.09222323 0.91,1 L1.21,1.24 Z" id="Shape" fill="#FDFDFF"></path>
+            <path d="M1.84,0.88 C1.77858786,0.895483784 1.71841999,0.91553974 1.66,0.94 L1.58,1 L1.5,1 L1.29,0.66 C1.32102479,0.636382459 1.35456109,0.616260681 1.39,0.6 L1.5,0.6 L1.73,0.47 L1.84,0.88 Z" id="Shape" fill="#FDFDFF"></path>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="2.2" y="0.41" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="3.04" y="0.41" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="3.88" y="0.41" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="4.72" y="0.41" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="5.56" y="0.41" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="6.4" y="0.41" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="7.25" y="0.41" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="8.09" y="0.41" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="8.93" y="0.41" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="9.77" y="0.41" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="10.61" y="0.41" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="11.45" y="0.41" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="12.3" y="0.41" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="13.14" y="0.41" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="13.98" y="0.41" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="14.82" y="0.41" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="15.66" y="0.41" width="1" height="1"></rect>
+            <rect id="Rectangle-path" fill="#FDFDFF" x="16.5" y="0.41" width="1" height="1"></rect>
+            <polygon id="Shape" fill="#FDFDFF" points="17.71 0.91 17.32 0.85 17.32 0.43 17.8 0.5"></polygon>
+            <path d="M18.46,1.17 C18.3474954,1.09865764 18.2265711,1.0415545 18.1,1 L18.23,0.6 C18.3705222,0.642870873 18.5075835,0.696358197 18.64,0.76 L18.46,1.17 Z" id="Shape" fill="#FDFDFF"></path>
+            <path d="M19.14,1.58 C19.0340507,1.49767916 18.9239027,1.42090935 18.81,1.35 L19,1 C19.1293727,1.07402595 19.2530485,1.15759071 19.37,1.25 L19.14,1.58 Z" id="Shape" fill="#FDFDFF"></path>
+            <path d="M19.7,2.14 C19.6615876,2.08899429 19.6180245,2.04208014 19.57,2 L19.44,1.85 L19.73,1.55 C19.79,1.6 19.83,1.66 19.88,1.71 C19.93,1.76 19.99,1.82 20.03,1.88 L19.7,2.14 Z" id="Shape" fill="#FDFDFF"></path>
+            <path d="M20.13,2.8 L20,2.63 L19.89,2.46 L20.25,2.23 L20.36,2.42 C20.36,2.48 20.43,2.55 20.47,2.62 L20.13,2.8 Z" id="Shape" fill="#FDFDFF"></path>
+            <path d="M20.39,3.55 C20.3639423,3.42050019 20.3271486,3.29339456 20.28,3.17 L20.68,3.03 C20.73,3.17 20.76,3.31 20.8,3.46 L20.39,3.55 Z" id="Shape" fill="#FDFDFF"></path>
+            <path d="M20.48,4.34 C20.48,4.21 20.48,4.07 20.48,3.94 L20.9,3.94 C20.9,4.09 20.9,4.24 20.9,4.39 L20.48,4.34 Z" id="Shape" fill="#FDFDFF"></path>
+            <path d="M22,5.73 L22,11.55 L13.6,11.55 C12.7936643,11.55 12.14,10.8963357 12.14,10.09 L12.14,7.19 C12.14,6.80278392 12.293821,6.43142721 12.5676241,6.1576241 C12.8414272,5.88382099 13.2127839,5.73 13.6,5.73 L22,5.73 Z" id="Shape" fill="#19376E"></path>
+            <rect id="Rectangle-path" fill="#FFFFFF" x="13.7" y="7.33" width="2.53" height="2.53" rx="1.26"></rect>
+            <rect id="Rectangle-path" fill="#00B9F0" x="14.33" y="7.97" width="1.26" height="1.26" rx="0.63"></rect>
+        </g>
+    </g>
+</svg>

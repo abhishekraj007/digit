@@ -1,0 +1,106 @@
+@mixin input-box-shadow {
+  box-shadow: 0 0 8px rgba(239,64,35,.2) !important;
+}
+
+
+/* antialiasing mode font rendering*/
+
+@mixin font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/*border with gradient*/
+
+@mixin fonts($size-xs, $size-md, $size-lg, $case, $f-family){
+  $line-diff: 10px;
+  /* font-weight: $font-wt;*/
+  text-transform: $case;
+  font-family: $f-family;
+  font-size: $size-xs !important;
+  line-height: $size-xs + $line-diff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media(min-width: $md){
+    font-size: $size-md !important;
+    line-height: $size-md + $line-diff;
+  }
+
+  @media(min-width: $lg){
+    $line-diff: 10px;
+    font-size: $size-lg !important;
+    line-height: $size-lg + $line-diff;
+  }
+}
+
+/* mixins for flex*/
+
+/** flex **/
+
+@mixin flex(){
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+}
+
+/** inline-flex **/
+@mixin inline-flex(){
+   display: -ms-inline-flexbox;
+   display: -webkit-inline-box;
+   display: inline-flex;
+}
+
+/** justify content **/
+
+@mixin justify-content($value){
+  -ms-flex-pack:$value;
+  -webkit-box-pack:$value;
+  justify-content:$value;
+}
+
+/** flex-direction **/
+
+@mixin flex-direction($direction){
+  -moz-flex-direction: $direction;
+  -ms-flex-direction: $direction;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: $direction;
+}
+
+/** align-items **/
+
+@mixin align-items($value){
+  -ms-flex-align:$value;
+  -webkit-box-align:$value;
+  align-items:$value;
+}
+
+/** flex-wrap **/
+
+ @mixin flex-wrap($value2){
+   flex-wrap: $value2 ;
+   -webkit-flex-wrap: $value2;
+   -ms-flex-wrap: $value2;
+}
+
+@mixin flex-box($display, $align-item, $justify-content){
+  display:$display;
+  -ms-flex-align:$align-item;
+      -webkit-box-align:$align-item;
+      align-items:$align-item;
+  -ms-flex-pack:$justify-content;
+      -webkit-box-pack:$justify-content;
+      justify-content:$justify-content;
+}
+
+/*padding*/
+
+@mixin sectionPadding(){
+  padding: 35px 0;
+  @media (min-width: $screen-medium){
+    padding: 70px 0;
+   }
+}

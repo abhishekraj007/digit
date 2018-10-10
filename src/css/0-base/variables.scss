@@ -1,0 +1,151 @@
+/* Variables*/
+
+
+/* --------------------------------------------------*/
+
+
+/* Media queries breakpoints*/
+
+
+/* --------------------------------------------------*/
+
+
+/* Medium screen / desktop*/
+
+$xs: 320px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$sxl: 1600px;
+$mxl: 1900px;
+
+/* larger-screens */
+
+$sxl-max: ($sxl - 1);
+
+/** Extra large **/
+
+$xl-max: ($xl - 1);
+
+/* Large screen / wide desktop*/
+
+$lg-max: ($lg - 1);
+
+/* Medium screen / desktop*/
+
+$md-max: ($md - 1);
+
+/* Tiny screen / phone*/
+
+$sm-max: ($sm - 1);
+
+/*font-families */
+
+
+/*=============================================
+                  Font Family
+=============================================*/
+
+/* Title Font Family*/
+
+
+$b-regular: "Brown-Regular";
+$b-bold: "Brown-Bold";
+
+
+/*=============================================
+=                COLORS NAME                  =
+=============================================*/
+
+
+$red : #ee2923;
+
+$thick-black: rgba(0, 0, 0, .85);
+
+$think-black: rgba(0, 0, 0, .70);
+
+$gray: rgba(0, 0, 0, .54);
+
+$light-gray: #f3f5f7;
+
+$yellow: #FFB121;
+
+$green: #19b64f;
+
+$white: #ffffff;
+
+
+
+/*=============================================
+=               THEME COLORS                  =
+=============================================*/
+
+// $font-montsetta-reg: Montserrat-Regular;
+
+// $font-montsetta-bold: Montserrat-Bold;
+
+
+/**
+ * To change theme color add a new color variable in above block
+ * and replace with that color variable in theme colors section
+ */
+
+
+ // fonts
+
+ $fnt-Brown-Bold: Brown-Bold;
+
+/* Theme colors*/
+
+$theme-primary: $red;
+
+$theme-secondary: $gray;
+
+$text-primary: $thick-black;
+
+/* nav-header menu **/
+
+$nav-shadow: 0 3px 10px rgba(131, 135, 138, 0.09);
+
+/* borders colors */
+
+$border-clr: rgba(0, 0, 0, 0.08);
+
+$checkbox-bg: #d6d6d6;
+
+$dropdown-bg: #f7f6f6;
+
+$dropdown-border: #eaeaeb;
+
+
+// Inputs
+
+$border-color: rgba(0,0,0,0.1);
+$input-bg: #ffffff;
+$input-text: #000000;
+$input-border: #eaeaeb;
+$input-label: rgba(0, 0, 0, 0.54);
+$input-label-default-size: 14px;
+$input-label-active-size: 11px;
+$number-card-bg: #F3F5F7;
+
+// Table
+$table-text-clr: #242B2E;
+$table-secondary-row: #fbfcfc;
+
+//tabs
+
+$tabs-text-clr: #242B2E;
+
+// Buttons
+$button-default-border: #eaeaeb;
+$payment-btn-bg: #f5f6f8;
+
+// Hover colors
+$hover-secondary: #f3f5f7;
+$active-secondary: #f3f5f7;
+
+// Alert
+
+$alert : #ff8181;

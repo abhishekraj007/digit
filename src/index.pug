@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+html(lang="en")
+  - var pageName = "home"
+  - var page_name= "home"
+  head
+    include pug/base/head.pug
+    +head(pageName)
+  body
+
+    include pug/base/header.pug
+    main
+      h1 Main
+
+
+    include pug/base/footer.pug
+    include pug/base/scripts.pug
+    +script(page_name)
