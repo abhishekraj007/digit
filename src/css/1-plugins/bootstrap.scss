@@ -13,7 +13,7 @@
 @import "bootstrap/mixins";
 
 /* Reset and dependencies*/
-
+@import "bootstrap/reboot";
 @import "bootstrap/root";
 @import "bootstrap/print";
 
@@ -21,7 +21,6 @@
 
 @import "bootstrap/grid";
 
-// @import "bootstrap/reboot";
 /* @import "bootstrap/type";*/
 // @import "bootstrap/images";
 // @import "bootstrap/code";
@@ -58,4 +57,4 @@
 
 /* Utility classes*/
 
-// @import "bootstrap/utilities";
+@import "bootstrap/utilities";

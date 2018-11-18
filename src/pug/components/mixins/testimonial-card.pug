@@ -1,0 +1,8 @@
+mixin testimonial-card(img, name, company, body)
+  .testimonial-card
+    figure.testimonial-thumb
+      img.testimonial-thumb__img(src=img, alt="Testimonial image")
+      figcaption.testimonial-thumb__desc
+        div=name
+        div=company
+    p.testimonial-body=body

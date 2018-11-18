@@ -1,0 +1,25 @@
+.button {
+  background-color: $white;
+  border: none;
+  padding: 0.7rem 1.4rem;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 900;
+  transition: all 0.3s;
+  color: $text-primary;
+  min-width: 1rem;
+
+  &:focus,
+  &:hover {
+    outline: none;
+    color: $text-primary;
+  }
+
+  &-primary {
+    background-color: $theme-primary;
+
+    &:hover {
+      background-color: $theme-primary-light;
+    }
+  }
+}

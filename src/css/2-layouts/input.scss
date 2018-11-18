@@ -1,0 +1,49 @@
+.search-box {
+  position: relative;
+
+  &__input {
+    width: 100%;
+    padding: 0.7rem 6rem 0.7rem 0.8rem;
+    border: 1px solid $border;
+    border-radius: 4px;
+    outline-color: $border-dark;
+    -moz-outline-radius: 4px;
+
+  }
+
+  &--large {
+    .search-box__input {
+      padding: 0.8rem 6rem 0.8rem 0.8rem;
+
+      @include bp (md) {
+        padding: 1rem 6rem 1rem 1rem;
+      }
+
+      @include bp (lg) {
+        padding: 2rem 6rem 2rem 2rem;
+      }
+    }
+
+    .search-box__button {
+      @include bp (lg) {
+        right: 2rem;
+      }
+    }
+  }
+
+  &__button {
+    position: absolute;
+    top: 50%;
+    right: 0.8rem;
+    transform: translate(0, -50%);
+    border: 0;
+    background-color: transparent;
+    color: $theme-primary;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+
+  }
+}

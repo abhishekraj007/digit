@@ -1,3 +1,48 @@
-// START: Header
-header 
-  H1 Header
+header.primary-header
+  .container
+    .row
+      .col-sm-12
+        navbar.header-nav
+          // Logo
+          a.header-logo(href="index.html")
+            img.header-logo__img(src="./img/logo.svg", alt="logo")
+          .nav-container
+            nav.nav-left              
+                ul.nav-menu
+                  li.nav-item
+                    a.nav-link(href="javascript:void(0)") Car Insurance
+                  li.nav-item
+                    a.nav-link(href="javascript:void(0)") Bike Insurance
+                  li.nav-item
+                    a.nav-link(href="javascript:void(0)") Travel Insurance
+                  // Sub menu
+                  li.nav-item
+                    a.nav-link.subnav.active(href="javascript:void(0)") Mobile Insurance
+                    .subnav-container
+                      ul.subnav-menu
+                        li.nav-item
+                          a.nav-link(href="javascript:void(0)") Overview
+                        li.nav-item
+                          a.nav-link(href="javascript:void(0)") Claims
+                        li.nav-item
+                          a.nav-link.active(href="javascript:void(0)") Plans
+                        li.nav-item.active
+                          a.nav-link.active.primary(href="javascript:void(0)") Buy now
+                  li.nav-item
+                    a.nav-link(href="javascript:void(0)") About
+                  li.nav-item
+                    a.nav-link(href="javascript:void(0)") FAQ
+                  li.nav-item
+                    a.nav-link.active.primary(href="javascript:void(0)") Make Claim
+            .nav-right
+              .header-tel
+                a.nav-link(href="tel:1800-232-65331") 
+                  i.icon.tel-icon
+                  span 1800-232-65331
+              // Mobile navmenu taoggler
+              .nav-toggler
+                .bar
+                .bar
+                .bar
+
+

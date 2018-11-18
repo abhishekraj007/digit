@@ -15,7 +15,10 @@
 $xs: 320px;
 $sm: 576px;
 $md: 768px;
+$mobile: 767px;
 $lg: 992px;
+$tablet: 991px;
+$desktop: 1024px;
 $xl: 1200px;
 $sxl: 1600px;
 $mxl: 1900px;
@@ -50,8 +53,7 @@ $sm-max: ($sm - 1);
 /* Title Font Family*/
 
 
-$b-regular: "Brown-Regular";
-$b-bold: "Brown-Bold";
+$font-family: "Muli";
 
 
 /*=============================================
@@ -61,19 +63,19 @@ $b-bold: "Brown-Bold";
 
 $red : #ee2923;
 
-$thick-black: rgba(0, 0, 0, .85);
+$thick-black: #333333;
 
-$gray: rgba(0, 0, 0, .54);
+$gray: #666666;
 
-$light-gray: #f3f5f7;
+$light-gray: #999999;
 
 $yellow: #FFB121;
 
 $green: #19b64f;
 
 $white: #ffffff;
-
-
+$black: #000000;
+$white-gray: #fafafa;
 
 /*=============================================
 =               THEME COLORS                  =
@@ -85,11 +87,28 @@ $white: #ffffff;
 
 /* Theme colors*/
 
-$theme-primary: $red;
-$theme-secondary: $gray;
+$theme-primary: #ffbb00;
+$theme-primary-light: #f7c640;
+$theme-accent: #51ad6a;
 
 /* Text colors */
-$text-primary: #2D3438;
-$text-secondary: #7E919A;
+$text-primary: #000000;
+$text-secondary: #333333;
+$text-tertiary: #999999;
 
-$icon: #B6C6CD;
+$border: rgba(0, 0, 0, 0.1);
+$border-light: rgba(0, 0, 0, 0.06);
+$border-dark: rgba(0, 0, 0, 0.2);
+
+/* Navigation */
+$header-bg: $white;
+$nav-link: $text-primary;
+$nav-link-hover: $theme-primary;
+$menu-toggler-color: $text-primary;
+$menu-bg: $white;
+$submenu-bg: $white-gray;
+
+
+/* Card */
+$card-border: $border;
+$card-border-radius: 4px;

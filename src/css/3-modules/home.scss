@@ -1,0 +1,22 @@
+.section {
+  &--faq {
+    background-color: $white-gray;
+    padding: 2rem 0
+  }
+
+  &--testimonial {
+    padding: 3rem 0;
+  }
+
+  &--order {
+    padding: 4rem 0;
+
+    @include bp (lg) {
+      padding: 6rem 0;
+    }
+  }
+}
+
+.plan-block {
+  margin-top: 40px;
+}

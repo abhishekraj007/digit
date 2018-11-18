@@ -6,11 +6,11 @@ html(lang="en")
     include pug/base/head.pug
     +head(pageName)
   body
-
+    // START: Header
     include pug/base/header.pug
-    main
-      h1 Main
-
+    // START: Main
+    main.main
+      include pug/layouts/home/main.pug
 
     include pug/base/footer.pug
     include pug/base/scripts.pug
