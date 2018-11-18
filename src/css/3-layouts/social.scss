@@ -1,0 +1,21 @@
+.social-link {
+  color: $text-tertiary;
+  display: flex;
+  align-items: center;
+  @include fonts(0.8rem, 0.9rem, 1rem, null, null);
+
+  @include bp(mobile) {
+    padding-bottom: 1.5rem;
+  }
+}
+
+.social-icon {
+  width: auto;
+  height: 20px;
+  margin-right: 1rem;
+
+  @include bp(lg) {
+    height: 40px;
+    padding: 0 1rem 0 0;
+  }
+}

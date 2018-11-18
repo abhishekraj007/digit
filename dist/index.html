@@ -63,10 +63,10 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-12">
-              <h1 class="h1 mb-4">The best plans for your phone</h1>
+              <h1 class="h1 my-4">The best plans for your phone</h1>
               <div class="search-box search-box--large">
                 <input class="search-box__input" type="search" placeholder="Search" value="Google Pixel"/>
-                <button class="search-box__button bold" type="button">Search</button>
+                <button class="search-box__button fnt-bold-thick" type="button">Search</button>
               </div>
             </div>
           </div>
@@ -74,16 +74,18 @@
             <div class="col-md-4 plan-item">
                             <div class="card plan-card">
                               <div>
-                                <div class="plan-header">           
+                                <div class="plan-header">
                                   <div class="plan-title">
                                     <div class="h4">Screen Damage</div><span class="fnt-sm text-accent">Rs. 450 onwards</span>
                                   </div>
                                   <div class="plan-thumb"><img class="plan-thumb__img" src="./img/icon-damage.svg" alt="plan icon"/></div>
                                 </div>
-                                <ul class="plan-body">
-                                  <li>Total Coverage upto Rs. 2000</li>
-                                  <li>Delays of over 75 mins covered</li>
-                                </ul>
+                                <div class="plan-body">
+                                  <ul class="list list--bordered">
+                                    <li>Total Coverage upto Rs. 2000</li>
+                                    <li>Delays of over 75 mins covered</li>
+                                  </ul>
+                                </div>
                               </div>
                               <div class="plan-footer"><a class="link" href="javascript:void(0)">View policy PDF</a></div>
                             </div>
@@ -91,17 +93,20 @@
             <div class="col-md-4 plan-item">
                             <div class="card plan-card">
                               <div>
-                                <div class="plan-header">           
+                                <div class="tip card-tip"><span>Most popular plan among iPhone 7 users</span></div>
+                                <div class="plan-header">
                                   <div class="plan-title">
                                     <div class="h4">Accidental</div><span class="fnt-sm text-accent">Rs. 100 onwards</span>
                                   </div>
                                   <div class="plan-thumb"><img class="plan-thumb__img" src="./img/icon-accident.svg" alt="plan icon"/></div>
                                 </div>
-                                <ul class="plan-body">
-                                  <li>Total Coverage upto Rs. 2000</li>
-                                  <li>Delays of over 75 mins covered</li>
-                                  <li>Cancels for any reason covered</li>
-                                </ul>
+                                <div class="plan-body">
+                                  <ul class="list list--bordered">
+                                    <li>Total Coverage upto Rs. 2000</li>
+                                    <li>Delays of over 75 mins covered</li>
+                                    <li>Cancels for any reason covered</li>
+                                  </ul>
+                                </div>
                               </div>
                               <div class="plan-footer"><a class="link" href="javascript:void(0)">View policy PDF</a></div>
                             </div>
@@ -109,17 +114,19 @@
             <div class="col-md-4 plan-item">
                             <div class="card plan-card">
                               <div>
-                                <div class="plan-header">           
+                                <div class="plan-header">
                                   <div class="plan-title">
                                     <div class="h4">Comprehensive</div><span class="fnt-sm text-accent">Rs. 500 onwards</span>
                                   </div>
                                   <div class="plan-thumb"><img class="plan-thumb__img" src="./img/icon-umbrella.svg" alt="plan icon"/></div>
                                 </div>
-                                <ul class="plan-body">
-                                  <li>Total Coverage upto Rs. 2000</li>
-                                  <li>Delays of over 75 mins covered</li>
-                                  <li>Cancels for any reason covered</li>
-                                </ul>
+                                <div class="plan-body">
+                                  <ul class="list list--bordered">
+                                    <li>Total Coverage upto Rs. 2000</li>
+                                    <li>Delays of over 75 mins covered</li>
+                                    <li>Cancels for any reason covered</li>
+                                  </ul>
+                                </div>
                               </div>
                               <div class="plan-footer"><a class="link" href="javascript:void(0)">View policy PDF</a></div>
                             </div>
@@ -134,27 +141,55 @@
             <div class="col-sm-12 col-md-6 offset-md-3 text-center">
               <h2 class="h2">Why your iPhone 7 needs insurance</h2>
               <p class="pb-md-4">You could end up damaging your phone any time, any where, and repairs aren't cheap. How much could it cost? Find out here.</p>
-              <div class="phone pt-4">
+            </div>
+          </div>
+          <div class="row py-5">
+            <div class="col-sm-12 phone-block">
+              <div class="phone">
                 <div class="phone-image"><img src="./img/phone.png" alt="phone"/></div>
-                <ul class="phone-damages">
-                  <li class="phone-damage">
+                <ul class="phone-damage-list fnt-sm">
+                  <li class="phone-damage right">
+                    <div class="phone-damage__name">Speaker failure</div>
+                    <div class="phone-damage__cost">Rs 3,572</div>
+                  </li>
+                  <li class="phone-damage left">
                     <div class="phone-damage__name">Touchscreen malfunction</div>
                     <div class="phone-damage__cost">Rs 6,448</div>
                   </li>
-                  <li class="phone-damage">
-                    <div class="phone-damage__name">Speaker failure</div>
-                    <div class="phone-damage__cost">Rs 6,448</div>
+                  <li class="phone-damage right">
+                    <div class="phone-damage__name">Crooked screen</div>
+                    <div class="phone-damage__cost">Rs 6,000</div>
+                  </li>
+                  <li class="phone-damage left sm">
+                    <div class="phone-damage__name">Liuid damage</div>
+                    <div class="phone-damage__cost">Rs 9,448</div>
+                  </li>
+                  <li class="phone-damage right sm">
+                    <div class="phone-damage__name">Physcial damage</div>
+                    <div class="phone-damage__cost">Rs 2,291</div>
+                  </li>
+                  <li class="phone-damage left">
+                    <div class="phone-damage__name">Microphone failure</div>
+                    <div class="phone-damage__cost">Rs 9,448</div>
+                  </li>
+                  <li class="phone-damage right">
+                    <div class="phone-damage__name">Home button failure</div>
+                    <div class="phone-damage__cost">Rs 1,280</div>
                   </li>
                 </ul>
               </div>
-              <p>Check how much damage could cost</p>
-              <form class="phone-seach-form" action="">
-                <ul class="search-suggestion">
-                  <li class="seach-suggestion__item">iPhone</li>
-                  <li class="seach-suggestion__item selected">Google Pixel</li>
-                  <li class="seach-suggestion__item">One Plus 5</li>
-                  <li class="seach-suggestion__item">Samasung Galaxy 8</li>
-                  <li class="seach-suggestion__item">HTC Desire X</li>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-6 offset-md-3 text-center">
+              <p class="fnt-sm text-tertiary">Check how much damage could cost</p>
+              <form class="phone-search-form" action="">
+                <ul class="search-suggestion my-3">
+                  <li class="search-suggestion__item">iPhone 7</li>
+                  <li class="search-suggestion__item selected">Google Pixel</li>
+                  <li class="search-suggestion__item">One Plus 5</li>
+                  <li class="search-suggestion__item">Samasung Galaxy 8</li>
+                  <li class="search-suggestion__item">HTC Desire X</li>
                 </ul>
                 <div class="search-box">
                   <input class="search-box__input" type="search" placeholder="Search" value="Google Pixel"/>
@@ -182,8 +217,8 @@
           <div class="row">
             <div class="col-sm-12">
               <h2 class="h2 mb-4">Our Customer love us. A lot.</h2>
-              <div class="row">
-                <div class="col-sm-4">
+              <div class="row testimonial-list">
+                <div class="col-9 col-md-4 testimonial-item">
                                     <div class="testimonial-card">
                                       <figure class="testimonial-thumb"><img class="testimonial-thumb__img" src="./img/testimonial/1.jpg" alt="Testimonial image"/>
                                         <figcaption class="testimonial-thumb__desc">
@@ -194,7 +229,7 @@
                                       <p class="testimonial-body">We supply everything a holiday resort need, from website cms to online reservation system, in 1 day. Mollie allows our customers to 1 day too</p>
                                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-9 col-md-4 testimonial-item">
                                     <div class="testimonial-card">
                                       <figure class="testimonial-thumb"><img class="testimonial-thumb__img" src="./img/testimonial/2.jpg" alt="Testimonial image"/>
                                         <figcaption class="testimonial-thumb__desc">
@@ -205,7 +240,7 @@
                                       <p class="testimonial-body">We supply everything a holiday resort need, from website cms to online reservation system, in 1 day. Mollie allows our customers to 1 day too</p>
                                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-9 col-md-4 testimonial-item">
                                     <div class="testimonial-card">
                                       <figure class="testimonial-thumb"><img class="testimonial-thumb__img" src="./img/testimonial/3.jpg" alt="Testimonial image"/>
                                         <figcaption class="testimonial-thumb__desc">
@@ -264,8 +299,143 @@
           </div>
         </div>
       </section>
+      <!-- START: Why Insurance-->
+      <section class="section bg-white-gray-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="row">
+                <div class="col-md-6 d-flex">
+                  <div class="row w-100 align-items-center">
+                    <div class="col-6">
+                      <h3 class="fnt-lg">Protect your phone</h3><a class="link" href="javascript:void(0)">Get a quote</a>
+                    </div>
+                    <div class="col-6"><img src="./img/phone-protect.svg" alt=""/></div>
+                  </div>
+                </div>
+                <div class="col-md-6 related-reading">
+                  <p class="mb-4 fnt-bold">Related Reading</p>
+                  <div class="row">
+                    <div class="col-6">
+                      <ul class="list">
+                        <li><a class="link link--underline" href="javascript:void(0)">Claims                </a></li>
+                        <li><a class="link link--underline" href="javascript:void(0)">FAQs                </a></li>
+                        <li><a class="link link--underline" href="javascript:void(0)">Plans</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-6">
+                      <ul class="list">
+                        <li><a class="link link--underline" href="javascript:void(0)">Downloads                </a></li>
+                        <li><a class="link link--underline" href="javascript:void(0)">Overview</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- START: Why Insurance-->
+      <section class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-md-3"><a class="social-link" href="javscript:void(0)"><img class="social-icon" src="./img/icon-fb.svg" alt=""/><span>Like us for regular updates</span></a></div>
+            <div class="col-6 col-md-3"><a class="social-link" href="javscript:void(0)"><img class="social-icon" src="./img/icon-medium.svg" alt=""/><span>Like us for regular updates</span></a></div>
+            <div class="col-6 col-md-3"><a class="social-link" href="javscript:void(0)"><img class="social-icon" src="./img/icon-linkedin.svg" alt=""/><span>Like us for regular updates</span></a></div>
+            <div class="col-6 col-md-3"><a class="social-link" href="javscript:void(0)"><img class="social-icon" src="./img/icon-twitter.svg" alt=""/><span>Like us for regular updates</span></a></div>
+          </div>
+        </div>
+      </section>
     </main>
-    <H2>Footer</H2>
+    <footer class="section footer-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-12 col-md-4 mb-4">
+                <h4 class="footer-title">Company</h4>
+                <div class="row">
+                  <div class="col-6">
+                    <ul class="list footer-list">
+                      <li><a href="javascript:void(0)">Home</a></li>
+                      <li><a href="javascript:void(0)">About</a></li>
+                      <li><a href="javascript:void(0)">Contact</a></li>
+                      <li><a href="javascript:void(0)">Contact</a></li>
+                      <li><a href="javascript:void(0)">Press</a></li>
+                      <li><a href="javascript:void(0)">Blog</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6">
+                    <ul class="list footer-list">
+                      <li><a href="javascript:void(0)">Downloads</a></li>
+                      <li><a href="javascript:void(0)">FAQs</a></li>
+                      <li><a href="javascript:void(0)">Financials</a></li>
+                      <li><a href="javascript:void(0)">Careers</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-2 mb-4">
+                <h4 class="footer-title">Car</h4>
+                <ul class="list footer-list">
+                  <li><a href="javascript:void(0)">Overview</a></li>
+                  <li><a href="javascript:void(0)">Plans</a></li>
+                  <li><a href="javascript:void(0)">Claims</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-2 mb-4">
+                <h4 class="footer-title">Bike</h4>
+                <ul class="list footer-list">
+                  <li><a href="javascript:void(0)">Overview</a></li>
+                  <li><a href="javascript:void(0)">Plans</a></li>
+                  <li><a href="javascript:void(0)">Claims</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-2 mb-4">
+                <h4 class="footer-title">Travel</h4>
+                <ul class="list footer-list">
+                  <li><a href="javascript:void(0)">Overview</a></li>
+                  <li><a href="javascript:void(0)">Plans</a></li>
+                  <li><a href="javascript:void(0)">Claims</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-2 mb-4">
+                <h4 class="footer-title">Mobile</h4>
+                <ul class="list footer-list">
+                  <li><a href="javascript:void(0)">Overview</a></li>
+                  <li><a href="javascript:void(0)">Plans</a></li>
+                  <li><a href="javascript:void(0)">Claims</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="footer-subscribe bg-white-gray">
+              <h4>Subscribe for regular updates</h4>
+              <p class="py-2">Get the best tips and tricks about car, bike, mobile, and travel insurance. Sent twice a month. No spam, we promise.</p>
+              <div class="search-box">
+                <input class="search-box__input" type="search" placeholder="Email address"/>
+                <button class="search-box__button" type="button">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 footer-logo"><a href="javaascript:void(0)"><img class="footer-logo-img" src="./img/logo.svg" alt="footer logo"/></a></div>
+          <div class="col-md-10">
+            <div class="row mt-5 mt-md-4">
+              <div class="col-md-6 footer-partner"><img class="img-fluid mr-3" src="./img/10.jpg" alt=""/>
+                <p class="text-tertiary fnt-sm m-md-0">Backed by Fairfax Financial Holdings Ltd. with operations in over 30 countries</p>
+              </div>
+              <div class="col-md-6 footer-partner"><img class="img-fluid mr-3" src="./img/11.jpg" alt=""/>
+                <p class="text-tertiary fnt-sm m-md-0">Approved by the Insurance Regulatory and Development Authority of India (IRDAI)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
         <script src="js/plugins/jquery.min.js"></script>
         <script src="js/main.js"></script>
   </body>

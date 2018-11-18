@@ -1,0 +1,114 @@
+.phone-block {
+  @include bp(md) {
+    text-align: center;
+  }
+}
+
+.phone {
+  position: relative;
+  display: inline-block;
+
+  @include bp(mobile) {
+    left: -3rem;
+  }
+}
+
+.phone-damage-list {
+  position: absolute;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: 1rem;
+  left: 120%;
+  min-width: 120px;
+
+  @include bp(md) {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.phone-damage {
+
+  @include bp(mobile) {
+    &:not(:last-child) {
+      margin-bottom: 0.4rem;
+    }
+  }
+
+  position: relative;
+
+  &::before {
+    position: absolute;
+    right: 110%;
+    top: 12px;
+    content: '';
+    height: 1px;
+    width: 110px;
+    background-color: $theme-primary;
+  }
+
+  &::after {
+    position: absolute;
+    right: calc(110% + 106px);
+    top: 8px;
+    content: '';
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: $theme-primary;
+  }
+
+  @include bp(md) {
+    &.left {
+      right: 180%;
+      text-align: right;
+
+      &::before {
+        left: 110%;
+      }
+
+      &::after {
+        left: calc(110% + 106px);
+      }
+    }
+
+    &.left.sm {
+      &::before {
+        width: 80px;
+      }
+
+      &::after {
+        left: calc(110% + 76px);
+      }
+    }
+
+    &.right {
+      left: 180%;
+      text-align: left;
+    }
+
+    &.right.sm {
+      &::before {
+        width: 80px;
+      }
+
+      &::after {
+        right: calc(110% + 76px);
+      }
+    }
+  }
+
+
+
+  // damage name  
+  &__name {
+    color: $text-tertiary;
+  }
+
+  // damange cost
+  &__cost {
+    color: $phone-damage-price-color;
+    font-weight: 900;
+  }
+}

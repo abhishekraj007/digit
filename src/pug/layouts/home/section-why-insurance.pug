@@ -6,25 +6,43 @@ section.section.section--insurance
         h2.h2 Why your iPhone 7 needs insurance
         p.pb-md-4 You could end up damaging your phone any time, any where, and repairs aren't cheap. How much could it cost? Find out here.
 
-        .phone.pt-4
+    .row.py-5
+      .col-sm-12.phone-block
+        .phone
           .phone-image
             img(src="./img/phone.png", alt="phone")
-          ul.phone-damages
-            li.phone-damage
+          ul.phone-damage-list.fnt-sm
+            li.phone-damage.right
+              .phone-damage__name Speaker failure
+              .phone-damage__cost Rs 3,572
+            li.phone-damage.left
               .phone-damage__name Touchscreen malfunction
               .phone-damage__cost Rs 6,448
-            li.phone-damage
-              .phone-damage__name Speaker failure
-              .phone-damage__cost Rs 6,448
-        p Check how much damage could cost
-
-        form.phone-seach-form(action="")
-          ul.search-suggestion
-            li.seach-suggestion__item iPhone
-            li.seach-suggestion__item.selected Google Pixel
-            li.seach-suggestion__item One Plus 5
-            li.seach-suggestion__item Samasung Galaxy 8
-            li.seach-suggestion__item HTC Desire X
+            li.phone-damage.right
+              .phone-damage__name Crooked screen
+              .phone-damage__cost Rs 6,000
+            li.phone-damage.left.sm
+              .phone-damage__name Liuid damage
+              .phone-damage__cost Rs 9,448
+            li.phone-damage.right.sm
+              .phone-damage__name Physcial damage
+              .phone-damage__cost Rs 2,291
+            li.phone-damage.left
+              .phone-damage__name Microphone failure
+              .phone-damage__cost Rs 9,448
+            li.phone-damage.right
+              .phone-damage__name Home button failure
+              .phone-damage__cost Rs 1,280
+    .row
+      .col-sm-12.col-md-6.offset-md-3.text-center
+        p.fnt-sm.text-tertiary Check how much damage could cost
+        form.phone-search-form(action="")
+          ul.search-suggestion.my-3
+            li.search-suggestion__item iPhone 7
+            li.search-suggestion__item.selected Google Pixel
+            li.search-suggestion__item One Plus 5
+            li.search-suggestion__item Samasung Galaxy 8
+            li.search-suggestion__item HTC Desire X
           .search-box
             input.search-box__input(type="search" placeholder="Search" value="Google Pixel")
             button(type="button").search-box__button Search

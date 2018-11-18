@@ -52,9 +52,8 @@ $sm-max: ($sm - 1);
 
 /* Title Font Family*/
 
-
-$font-family: "Muli";
-
+$font-family: 'Muli',
+sans-serif;
 
 /*=============================================
 =                COLORS NAME                  =
@@ -76,6 +75,7 @@ $green: #19b64f;
 $white: #ffffff;
 $black: #000000;
 $white-gray: #fafafa;
+$white-gray-dark: #f2f2f2;
 
 /*=============================================
 =               THEME COLORS                  =
@@ -112,3 +112,8 @@ $submenu-bg: $white-gray;
 /* Card */
 $card-border: $border;
 $card-border-radius: 4px;
+
+
+/* Phone Damange */
+
+$phone-damage-price-color: #c42d25;

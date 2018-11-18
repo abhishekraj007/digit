@@ -1,0 +1,150 @@
+body {
+  font-family: $font-family;
+}
+
+body>.main {
+  padding-top: 60px;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
+  font-weight: 900;
+}
+
+h1,
+.h1 {
+  @include fonts(1.8rem, 2.2rem, 2.8rem, null, null);
+}
+
+h2,
+.h2 {
+  @include fonts(1.4rem, 1.6rem, 1.8rem, null, null);
+}
+
+h3,
+.h3 {
+  @include fonts(1.2rem, 1.4rem, 1.6rem, null, null);
+}
+
+h4,
+.h4 {
+  @include fonts(1rem, 1.1rem, 1.2rem, null, null);
+}
+
+.fnt-sm,
+a.fnt-sm,
+li.fnt-sm,
+p.fnt-sm {
+  @include fonts (0.8rem, 0.9rem, 1rem, null, null);
+}
+
+// a,
+// li,
+// p {
+//   @include fonts (0.8rem, 0.9rem, 1rem, null, null);
+// }
+
+.fnt-bold {
+  font-weight: 600;
+}
+
+.fnt-bold-thick {
+  font-weight: 700;
+}
+
+.fnt-bold-extrathick {
+  font-weight: 900;
+}
+
+.text-primary {
+  color: $text-primary;
+}
+
+.text-secondary {
+  color: $text-secondary;
+}
+
+.text-tertiary {
+  color: $text-tertiary;
+}
+
+.text-theme {
+  color: $theme-primary;
+}
+
+.text-accent {
+  color: $theme-accent;
+}
+
+.fnt-sm {
+  font-size: 0.8rem;
+}
+
+.fnt-lg {
+  @include fonts(1.3rem, 1.6rem, 1.8rem, null, null);
+  font-weight: 600;
+}
+
+
+
+a,
+.link {
+  color: $theme-primary;
+  transition: all 0.3s;
+
+  &:hover {
+    text-decoration: none;
+    color: darken($color: $theme-primary, $amount: 0.5)
+  }
+
+  &--underline {
+    position: relative;
+    color: $text-secondary;
+
+    &::after {
+      position: absolute;
+      content: '';
+      left: 0;
+      bottom: -2px;
+      width: 100%;
+      height: 1px;
+      background-color: $theme-primary;
+    }
+  }
+}
+
+.bg-white-gray {
+  background-color: $white-gray;
+}
+
+.bg-white-gray-dark {
+  background-color: $white-gray-dark;
+}
+
+.section {
+  padding: 2rem 0;
+
+  @include bp(lg) {
+    padding: 4rem 0;
+  }
+}
+
+.related-reading {
+  border-top: 1px solid $border;
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+
+  @include bp(md) {
+    padding-top: 0;
+    margin-top: 0;
+    border-top: 0;
+    border-right: 1px solid $border;
+    order: -1;
+  }
+}

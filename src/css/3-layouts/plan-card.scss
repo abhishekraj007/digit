@@ -1,9 +1,10 @@
 .plan-card {
   padding: 1.4rem;
   width: 100%;
+  position: relative;
 
   @include bp(md) {
-    padding: 1rem;
+    padding: 1.2rem;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -36,6 +37,10 @@
     margin-bottom: 1rem;
     flex-direction: row;
   }
+
+  @include bp(lg) {
+    margin: 1.2rem 0 1rem 0;
+  }
 }
 
 .plan-thumb {
@@ -59,21 +64,9 @@
 
 .plan-body {
   display: none;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
 
   @include bp(md) {
     display: block;
-  }
-
-  li {
-    padding: 0.5rem 0;
-
-    &:not(:first-child) {
-      color: $text-tertiary;
-      border-top: 1px solid $border-light;
-    }
   }
 }
 
@@ -82,5 +75,39 @@
   @include bp(md) {
     text-align: right;
     margin: 2rem 0 1rem 0;
+  }
+}
+
+.card-tip {
+  position: absolute;
+  top: -1rem;
+  left: 2rem;
+  display: none;
+
+  @include bp(lg) {
+    display: block;
+  }
+}
+
+.tip {
+  background-color: $theme-accent;
+  color: $white;
+  font-size: 0.8rem;
+  max-width: 320px;
+  padding: 0.6rem 0.8rem;
+  border-radius: 4px;
+  position: absolute;
+
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+    border-bottom: 0.5rem solid $theme-accent;
+    transform: translate(0, -8px);
   }
 }

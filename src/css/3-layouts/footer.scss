@@ -1,0 +1,42 @@
+.footer-main {
+  border-top: 1px solid $border;
+  padding: 2
+}
+
+.footer-list {
+
+  li,
+  a {
+    color: $text-secondary;
+
+    &:hover {
+      color: $theme-primary;
+    }
+  }
+}
+
+.footer-subscribe {
+  padding: 1.5rem;
+}
+
+.footer-logo {
+  margin-top: 2rem;
+
+  @include bp(mobile) {
+    order: 1;
+    text-align: center;
+  }
+}
+
+.footer-logo-img {
+  width: 60px;
+}
+
+.footer-partner {
+  display: flex;
+  align-items: center;
+
+  @media (min-width: $md) and (max-width: $lg) {
+    align-items: flex-start;
+  }
+}

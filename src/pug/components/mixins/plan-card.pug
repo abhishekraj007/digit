@@ -1,16 +1,20 @@
-mixin plan(title, price, img, desc, sub_desc, link, other_text)
+mixin plan(title, price, img, desc, sub_desc, link, other_text, tooltip)
   .card.plan-card
     div
-      .plan-header            
+      if tooltip === true
+        .tip.card-tip
+          span Most popular plan among iPhone 7 users
+      .plan-header
         .plan-title
           div.h4=title
           span.fnt-sm.text-accent=price
         .plan-thumb
           img.plan-thumb__img(src=img, alt="plan icon")
-      ul.plan-body
-        li=desc
-        li=sub_desc
-        if other_text !== ""
-          li=other_text
+      .plan-body
+        ul.list.list--bordered
+          li=desc
+          li=sub_desc
+          if other_text !== ""
+            li=other_text
     .plan-footer
       a(href="javascript:void(0)").link=link

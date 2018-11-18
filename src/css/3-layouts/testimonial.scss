@@ -1,0 +1,46 @@
+.testimonial-list {
+  @include bp(mobile) {
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: block;
+    white-space: nowrap;
+  }
+}
+
+.testimonial-item {
+  @include bp(mobile) {
+    display: inline-block;
+    white-space: normal;
+  }
+}
+
+.testimonial-card {
+  margin-right: 0.4rem;
+}
+
+.testimonial-thumb {
+  position: relative;
+
+  &__img {
+    max-width: 100%;
+  }
+
+  &__desc {
+    position: absolute;
+    bottom: 0.4rem;
+    left: -1rem;
+    background-color: $theme-primary;
+    padding: 0.4rem;
+    font-size: 0.7rem;
+
+    @include bp(lg) {
+      bottom: 1rem;
+      padding: 0.6rem;
+      font-size: 0.8rem;
+    }
+  }
+}
+
+.testimonial-body {
+  @include fonts(1rem, 1rem, 1.1rem, null, null);
+}

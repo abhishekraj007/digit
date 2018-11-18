@@ -30,14 +30,14 @@
 
 .accordion__item {
   >.accordion-header:after {
-    content: "\f3d0";
-    font-family: IonIcons;
-    font-size: 1.2em;
+    content: "\203A";
+    // font-family: IonIcons;
+    font-size: 1.4em;
     float: right;
     position: relative;
     top: -2px;
     transition: .3s all;
-    transform: rotate(0deg);
+    transform: rotate(90deg);
   }
 
   &.active {
@@ -45,7 +45,7 @@
       color: $theme-primary;
 
       &::after {
-        transform: rotate(-180deg);
+        transform: rotate(270deg);
       }
     }
   }

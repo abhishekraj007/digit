@@ -1,6 +1,4 @@
-import util from './util';
-
-util.init();
+import util from '../util/util';
 
 const primaryHeader = select('.primary-header');
 const menuToggler = select('.nav-toggler');

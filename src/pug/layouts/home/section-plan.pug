@@ -3,16 +3,16 @@ section.section.bg-white-gray.section--plan
   .container
     .row
       .col-sm-12
-        h1.h1.mb-4 The best plans for your phone
+        h1.h1.my-4 The best plans for your phone
 
         .search-box.search-box--large
             input.search-box__input(type="search" placeholder="Search" value="Google Pixel")
-            button(type="button").search-box__button.bold Search
+            button(type="button").search-box__button.fnt-bold-thick Search
     .row.plan-block
       .col-md-4.plan-item
         include ../../components/mixins/plan-card.pug
-        +plan("Screen Damage", "Rs. 450 onwards", "./img/icon-damage.svg", "Total Coverage upto Rs. 2000", "Delays of over 75 mins covered", "View policy PDF", "")
+        +plan("Screen Damage", "Rs. 450 onwards", "./img/icon-damage.svg", "Total Coverage upto Rs. 2000", "Delays of over 75 mins covered", "View policy PDF", "", false)
       .col-md-4.plan-item
-        +plan("Accidental", "Rs. 100 onwards", "./img/icon-accident.svg", "Total Coverage upto Rs. 2000", "Delays of over 75 mins covered", "View policy PDF", "Cancels for any reason covered")
+        +plan("Accidental", "Rs. 100 onwards", "./img/icon-accident.svg", "Total Coverage upto Rs. 2000", "Delays of over 75 mins covered", "View policy PDF", "Cancels for any reason covered", true)
       .col-md-4.plan-item
-        +plan("Comprehensive", "Rs. 500 onwards", "./img/icon-umbrella.svg", "Total Coverage upto Rs. 2000", "Delays of over 75 mins covered", "View policy PDF", "Cancels for any reason covered")
+        +plan("Comprehensive", "Rs. 500 onwards", "./img/icon-umbrella.svg", "Total Coverage upto Rs. 2000", "Delays of over 75 mins covered", "View policy PDF", "Cancels for any reason covered", false)

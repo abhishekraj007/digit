@@ -43,7 +43,7 @@
 /*border with gradient*/
 
 @mixin fonts($size-xs, $size-md, $size-lg, $case, $f-family) {
-  $line-diff: 0.6rem;
+  $line-diff: 0.5rem;
   /* font-weight: $font-wt;*/
   text-transform: $case;
   font-family: $f-family;

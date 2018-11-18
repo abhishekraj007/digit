@@ -6,8 +6,15 @@
     padding: 0.7rem 6rem 0.7rem 0.8rem;
     border: 1px solid $border;
     border-radius: 4px;
-    outline-color: $border-dark;
+    line-height: normal;
     -moz-outline-radius: 4px;
+    transition: all 0.3s;
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 2px $theme-accent;
+      border-color: $theme-primary;
+    }
 
   }
 
@@ -45,5 +52,29 @@
       outline: none;
     }
 
+  }
+}
+
+.search-suggestion {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  li {
+    cursor: pointer;
+    color: $theme-primary;
+    margin-bottom: 0.4rem;
+
+    &.selected {
+      color: $text-secondary;
+      font-weight: 600;
+    }
+
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
   }
 }
